@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:5000/api/courses';
-const API_URL = 'https://onlineelearnignbacend-1.onrender.com';
+const API_URL = 'https://onlineelearnignbacend-1.onrender.com/api/users';
 
 // Create a new course
 export const createCourse = async (courseData, token) => {
