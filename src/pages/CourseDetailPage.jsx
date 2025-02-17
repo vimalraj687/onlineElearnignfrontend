@@ -37,7 +37,8 @@ const CourseDetailPage = () => {
       {/* Course Header */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <motion.img
-          src={`http://localhost:5000/${course.image}`}
+          // src={`http://localhost:5000/${course.image}`}
+          src={`https://onlineelearnignbacend-1.onrender.com/${course.image}`}
           alt={course.title}
           className="w-full h-72 object-cover rounded-lg shadow-lg"
           whileHover={{ scale: 1.05 }}

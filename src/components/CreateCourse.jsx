@@ -214,7 +214,8 @@ const CreateCourse = () => {
           {/* <td className="border border-gray-300 p-2">{course.courseType}</td> */}
           <td className="border border-gray-300 p-2">
           <img 
-  src={`http://localhost:5000/${course.image.replace(/\\/g, "/")}`} 
+  // src={`http://localhost:5000/${course.image.replace(/\\/g, "/")}`} 
+  src={`https://onlineelearnignbacend-1.onrender.com/${course.image.replace(/\\/g, "/")}`} 
   alt="Course" 
   className="w-20 h-20 object-cover rounded"
 />

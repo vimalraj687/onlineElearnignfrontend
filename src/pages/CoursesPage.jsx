@@ -45,7 +45,8 @@ const CoursesPage = () => {
   >
     <div className="relative">
       <img 
-        src={`http://localhost:5000/${course.image.replace(/\\/g, "/")}`} 
+        // src={`http://localhost:5000/${course.image.replace(/\\/g, "/")}`} 
+        src={`https://onlineelearnignbacend-1.onrender.com${course.image.replace(/\\/g, "/")}`} 
         alt="Course" 
         className="w-full h-40 object-cover"
       />

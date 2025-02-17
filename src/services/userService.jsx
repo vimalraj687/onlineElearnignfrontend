@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/users";
+// const API_URL = "http://localhost:5000/api/users";
+const API_URL = "https://onlineelearnignbacend-1.onrender.com";
 
 // Register User
 export const registerUser = async (name, email, password) => {
